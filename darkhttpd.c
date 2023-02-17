@@ -284,7 +284,7 @@ static time_t now;
 /* To prevent a malformed request from eating up too much memory, die once the
  * request exceeds this many bytes:
  */
-#define MAX_REQUEST_LENGTH 4000
+#define MAX_REQUEST_LENGTH 40000
 
 /* Defaults can be overridden on the command-line */
 static const char *bindaddr;
